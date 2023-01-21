@@ -10,4 +10,9 @@ public class Attributes{
          this.attr[i] = ats[i];
       }
    }
+   public void addBuffs(int[] a){
+      for(int i = 0; i < 6; i++){
+         this.attr[i] += a[i];
+      }
+   }
 }

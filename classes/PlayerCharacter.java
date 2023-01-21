@@ -18,6 +18,8 @@ public class PlayerCharacter{
       this.ori = o;
       this.gen = g;
       
+      this.attr.addBuffs(ag.GetBuff());
+      this.attr.addBuffs(gen.GetBuff());
       //apply buffs (r, p?, ag, ori?, gen)
    }
 }

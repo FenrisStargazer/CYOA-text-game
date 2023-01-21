@@ -15,4 +15,8 @@ public class Gender{
          throw new IllegalArgumentException("Bad param");
       }
    }
+   
+   public int[] GetBuff(){
+      return this.buff;
+   }
 }

@@ -25,4 +25,8 @@ public class Age{
          throw new IllegalArgumentException("Bad param");
       }
    }
+   
+   public int[] GetBuff(){
+      return this.buff;
+   }
 }
